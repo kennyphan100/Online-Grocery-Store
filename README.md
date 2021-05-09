@@ -4,7 +4,7 @@ This project implements an online grocery store website using HTML, CSS, JavaScr
 
 
 ![image](https://user-images.githubusercontent.com/66841718/117587065-0ce37080-b0ea-11eb-86ac-61806df1a1db.png)
-![Uploading image.png…]()![image](https://user-images.githubusercontent.com/66841718/117587041-e9202a80-b0e9-11eb-8c7f-77bc099f0d4b.png)
+![image](https://user-images.githubusercontent.com/66841718/117587041-e9202a80-b0e9-11eb-8c7f-77bc099f0d4b.png)
 
 
 
