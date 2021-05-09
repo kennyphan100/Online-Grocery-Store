@@ -1,0 +1,118 @@
+#contact-us {
+    width: 90%;
+    margin: auto;
+    min-height: 70vh;
+    text-align: center;
+}
+
+#contact-title {
+    text-align: center;
+    background-color: powderblue;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#form {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#form label {
+    color: rgb(4, 108, 199);
+    font-size: 1.1em;
+}
+
+#form div {
+    margin: 20px 0px;
+}
+
+#form input, #form textarea {
+    border: 1px solid black;
+}
+
+#form #submit {
+    margin: auto;
+    background-color: rgb(4, 108, 199);;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+}
+
+.checkValidity {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    visibility: hidden;
+}
+
+textarea {
+    vertical-align: middle;
+}
+
+#article {
+    margin-top: 25px;
+}
+
+/* RESPONSIVE WEB DESIGN */
+@media only screen and (max-width:800px) {
+    #contact-us {
+        min-height: 70vh;
+    }
+
+    #jobs {
+        visibility: hidden;
+    }
+
+}
+
+@media only screen and (max-width:600px) { 
+    #requiredOrder {
+        font-size: 1em;
+    }
+
+    #form label {
+        font-size: 0.9em;
+    }
+
+    #form input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 300px;
+        height: 150px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    #form label {
+        font-size: 0.9em;
+    }
+
+    #contact-us {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    textarea {
+        width: 300px;
+        height: 150px;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+    #menu form a i {
+        font-size: 10px;
+    }
+
+    textarea {
+        width: 200px;
+        height: 100px;
+    }
+
+}

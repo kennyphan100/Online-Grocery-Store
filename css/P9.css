@@ -1,0 +1,87 @@
+#header {
+    background-image: linear-gradient( rgb(52, 177, 235), rgb(4,108,199));
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+  }
+  
+  #header a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #header #title {
+    color: rgb(32, 68, 153);
+  }
+  
+  nav #logo
+  {
+    width: 98px;
+    margin-right: -6px;
+  }
+  
+  span.fa-search{
+    position:absolute;
+    margin-top: 12px;
+    margin-left: 10px;
+  }
+  
+  input[type = checkbox] {
+    width: 50px;
+  }
+  
+  form.search input[type = search]
+  {
+    width: 250px;
+    height: 40px;
+    padding-left: 32px;
+    margin-right: 10px;
+    border-style: double;
+    border-color:cornflowerblue;
+    border-radius: 10px 10px 10px 10px;
+    outline: none;
+    transition: border-color 0.3s;
+    transition: box-shadow 0.3s;
+  }
+  
+  form.search input[type = search]:hover
+  {
+    border-color:rgb(61, 123, 238);
+    box-shadow: 2px 0px 10px 0px rgb(61, 123, 238);
+  }
+  
+  form.search input[type = search]:focus
+  {
+    border-color:blueviolet;
+    box-shadow: 2px 0px 10px 0px blueviolet;
+  }
+  
+  table{
+    margin-top: 16px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  table td#item
+  {
+    margin-top: 16px;
+    width: auto;
+    text-align: left;
+  }
+
+  .button {
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: rgb(75, 211, 75)
+  }

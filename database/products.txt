@@ -1,0 +1,15 @@
+Apple 
+../images/apple.jpg
+$51/each 
+$51 
+Some random text for the product.
+Avacado
+../images/avocado.jpg
+$2/each
+$2
+Some random text for the product.
+Kiwi
+../images/kiwi.jpg
+$1.29/each
+$1.29
+Some random text For the Product

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+
+		<title>Add/edit user</title>
+		
+		 <!-- Meta tags-->
+		  <meta charset="UTF-8">
+		  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		  <meta name="description" content="Cloud Online Grocery Website">
+		  <meta name="Author" content="Mélina Deneuve, Kenny Phan, Joe El-Khoury, Titouan Sablé, Tommy Cao, Muhammad Mubashir">
+		  <meta name="Keywords" content="Cloud, Online Grocery">
+		
+		 <!-- For the sytle of this page, I just used the style of the person that did the item list. It looks good and I thought it would be better if I didn't do
+			something completly different (since this web page needs to have the same style as the item page).-->
+		 <!-- Custom Stylesheet -->
+		 <link rel="stylesheet" href="../css/P1.css">
+		 <link rel="stylesheet" type="text/css" href="../css/P10.css">
+	 
+		 <!-- Font Awesome CDN -->
+		 <script src="https://kit.fontawesome.com/5995e1d6ee.js" crossorigin="anonymous"></script>
+
+		 <!-- Bootstrap CDN -->
+		 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+         
+		 <!-- Custom Scripts -->
+		<script src="../js/P9.js"></script>
+
+	</head>
+    
+	    <body>
+		<header id="header">
+		    <a href="../php/P1.php"> Cloud Grocery User List </a>
+		</header>
+		
+		<!-- Menu created from Bootstrap template -->
+		<nav class = "navbar navbar-light navbar-expand-lg bg-light">
+			<div class = "container-fluid">
+				<a class = "navbar-brand" href = "#">
+					<img src = "../images/cloud.jpg" id = "logo" type = "image/jpg" class="align-top">
+				</a>
+				<button class = "navbar-toggler" type = "button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class = "navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ms-auto">
+						<a class="nav-link active" aria-current="page" href="#">Edit Users</a>
+						<a class='nav-link' href="P5.html">Login</a>
+						<a class="nav-link" href="P1.html">Homepage</a>
+						<a class="nav-link" href="P7.html">Product List</a>
+						<a class="nav-link" href="P9.html">User List</a>
+						<a class="nav-link" href="P11.html">Order List</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		
+		<br/>
+		<div style="text-align:center;">
+		<h3>Login information of the user:</h3>
+		<form action="">
+			<label>Username:</label>
+			<input type ="text" name="Username" />
+			<br/> <br/>
+			<label>Users password:</label>
+			<input type ="text" name="Password" />
+		</form>
+		<br/> <br/>
+
+		<h3>Personnal information of the user:</h3>
+		<form action="">
+			<label>First name of the user:</label>
+			<input type ="text" name="Firstname" />
+			<br/> <br/>
+			<label>Last name of the user:</label>
+			<input type ="text" name="Firstname" />
+		</form>
+		<br/>
+		<form>
+			<label>Users email:</label>
+			<input type="text" name="email">
+			<!--This following srcipt has been found on the website: 
+				https://stackoverflow.com/questions/469357/html-text-input-allow-only-numeric-input-->
+			<script>
+			function validate(evt) {
+				var theEvent = evt || window.event;
+				// Handle paste
+				if (theEvent.type === 'paste') {
+					key = event.clipboardData.getData('text/plain');
+				} else {
+				// Handle key press
+					var key = theEvent.keyCode || theEvent.which;
+					key = String.fromCharCode(key);
+				}
+				var regex = /[0-9]|\./;
+				if( !regex.test(key) ) {
+				  theEvent.returnValue = false;
+				  if(theEvent.preventDefault) theEvent.preventDefault();
+				}
+			}</script>
+			<br/> <br/>
+			<label>Phone number:</label>
+			(<input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="XXX" aria-label="3-digit area code" size="1" maxlength="3" onkeypress='validate(event)'/>)
+   				<input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="XXX" aria-label="3-digit prefix" size="1" maxlength="3" onkeypress='validate(event)'/> -
+			   	<input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="XXXX" aria-label="4-digit number" size="1" maxlength="4" onkeypress='validate(event)'/>
+		</form>
+		<br/> <br/>
+
+		<h3>Address information of the user:</h3>
+		<form name="address_type" action="#">
+			<label>House number:</label>
+				<input type="number" name="AddressNumber">  
+			<br/> <br/>
+
+			<label>Address type:</label>
+			<select name="address_type" onchange="if(this.options[this.selectedIndex].value=='Other'){
+				 toggleField(this,this.nextSibling);this.selectedIndex='0';}">
+				<option></option>
+				<option>Alley</option>
+				<option>Avenue</option>
+				<option>Boulevard</option>
+				<option>Street</option>
+				<option value="Other">Other</option>
+			</select>
+			<input name="address_type" style="display:none;" disabled="disabled" onblur="if(this.value==''){toggleField(this,this.previousSibling);}">
+			<br/> <br/>
+
+			<label>Street name:</label>&nbsp;
+			<textarea name ="address" rows = "2" columns = "20"></textarea>
+			<br/> <br/>
+
+			<label>City:</label>&nbsp;
+			<input type="text" name="City">
+			<br/> <br/>
+
+			<label>Postal code:</label>
+			<input type="text" name="PostalCode">
+			<br/> <br/>
+
+			<label>Country:</label>
+			<input type="text" name="Country">
+		</form>
+		<br/> <br/>
+
+		<form action ="P9.html">
+		<p> Click to confirm any changes </p>
+		<button class="button button1" id = "save" onclick="productUpdate();"><i class="far fa-save"></i> Save </button>
+		</form>
+		</div>
+
+		<br/>
+		<footer>
+			<div id="copyright">
+				<h6> &copy; Copyright Cloud 2021</h6>
+			</div>
+		</footer>
+	</body>
+</html>

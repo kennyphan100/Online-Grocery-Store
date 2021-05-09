@@ -1,0 +1,119 @@
+.container {
+    padding: 30px;
+}
+
+/* FEATURES */
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.flexbox-item {
+    width: auto;
+    margin: 10px;
+}
+
+#flexbox-item-1 {
+    height: auto;
+}
+
+#flexbox-item-2 {
+    height: auto;
+}
+
+#flexbox-item-3 {
+    height: auto;
+}
+
+.flexbox-item {
+    padding: 30px;
+}
+
+#flexbox-item-2 button {
+    background-color: rgb(4, 108, 199);
+    border: none;
+    color: White;
+    margin: 0px 15px;
+    padding: 0 10px;
+    font-size: 1.3em;
+}
+
+#flexbox-item-1 i, #flexbox-item-3 i {
+    color: rgb(4, 108, 199);
+    cursor: pointer;
+    font-size: 2em;
+}
+
+#flexbox-item-1 i:hover, #flexbox-item-3 i:hover {
+    color: rgb(4, 78, 143);;
+}
+
+.flexbox-item label {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+/* ACCORDION - DETAILED DESCRIPTION */
+.accordion {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+  }
+  
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    float: right;
+    font-size: 13px;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+  
+  .panel {
+    background-color: white;
+    padding: 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+
+  /* RESPONSIVE WEB DESIGN */
+@media only screen and (max-width: 800px) {
+
+    #trash i, #cart i  {
+        font-size: 1.5em;
+    }
+
+    .flexbox-container div label {
+        font-size: 1em;
+    }
+
+}
+
+@media only screen and (max-width: 769px) {
+    #jobs {
+        visibility: hidden;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .flexbox-container {
+        flex-wrap: wrap;
+        text-align: left;
+    }
+
+}

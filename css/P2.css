@@ -1,0 +1,406 @@
+/* HEADER */
+#header {
+    background-image: linear-gradient( rgb(52, 177, 235), rgb(4,108,199));
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+
+#header a {
+    text-decoration: none;
+    color: white;
+}
+
+#header #title {
+    color: rgb(32, 68, 153);
+}
+
+/* MENU */
+#menu {
+    height: 6em;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+#menu #box {
+    width: 60%;
+    margin: auto;
+}
+
+#menu #logo {
+    float: left;
+    width: 150px;
+}
+
+form.search-box {
+    float: left;
+    vertical-align: center;
+    width: 35%;
+    margin-top: 1.3em;
+    margin-left: 2em;
+    font-size: 1.3em;
+    line-height: normal;
+}
+
+form.search-box input[type=text] {
+    border-right: none;
+    border-color: black;
+    float: left;
+    width: 80%;
+    border-radius: 10px 0px 0px 10px;
+    outline-width: 0;
+}
+
+form.search-box button {
+    border-radius: 0px 10px 10px 0px;
+    border-left: none;
+    border-color: black;
+    background: white;
+    cursor: pointer;
+    float: left;
+    width: auto;
+    outline-width: 0;
+}
+
+form.icons {
+    float: left;
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+form.icons a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin: 0em 2em;
+    margin-left: 0;
+}
+
+form.search-box::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+form a:hover {
+    color: rgb(4, 108, 199);
+    text-decoration: underline;
+}
+
+/* NAVIGATION BAR */
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #555555;
+}
+.dropdown-menu li {
+    background-color: #f5f5f5;
+    font-size: 20px;
+    padding: 5px 10px;
+    width: 220px;
+    text-align: left;
+}
+
+.dropdown-menu a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+/* MAIN SECTION */
+#products {
+    /* min-height: 50vh; */
+    min-height: 70vh;
+    width: 95%;
+    text-align: center;
+}
+
+#products div div {
+    border: 5px solid lightgray;
+    border-radius: 50px;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+#products a {
+    display: block;
+}
+
+#products a#name {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#products .title {
+    background-color: #f3f3f3;
+    margin: 2em 0;
+    padding: 5px 0px;
+}
+
+.title h1 {
+    text-align: center;
+    color: rgb(41, 40, 39);
+    font-size: 2em;
+    letter-spacing: 0.1em;
+}
+
+#products img {
+    width: 75%;
+}
+
+#products i {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: black;
+}
+
+#products i:hover {
+    color: #555555;
+}
+
+/* ARTICLE */
+#article {
+    background-color: rgb(4, 108, 199);
+    height: 1.5em;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#article i {
+    color: white;
+    margin: 0 0.5em;
+}
+
+#article i:hover {
+    color: rgb(52, 177, 235);
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+footer {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#information div {
+    display: inline-block;
+    margin-top: 0px;
+    padding-top: 0;
+    vertical-align: top;
+    margin: 0 2em;
+    text-align: left;
+}
+
+#information div h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 1em;
+}
+
+#information ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+#information ul a {
+    font-size: 1em;
+    text-decoration: none;
+    color: rgb(4, 108, 199);
+}
+
+#information ul a:hover {
+    color: rgb(52, 177, 235);
+    text-decoration: underline;
+}
+
+#copyright {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+
+/* RESPONSIVE WEB DESIGN */
+@media only screen and (max-width: 1650px) {
+    #menu #box {
+        width: 70%;
+    }
+
+    section #delivery h2 {
+        font-size: 170%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #menu #box {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    #menu #box {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #menu #box {
+        width: auto;
+    }
+
+    form.icons {
+        margin-left: 1em;
+    }
+
+    #products img {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    #menu {
+        margin-bottom: 10em;
+    }
+
+    #menu #logo {
+        margin-left: 40%;
+        margin-right: 60%;
+    }
+
+    #menu form.search-box {
+        width: 60%;
+        margin-left: 25%;
+    }
+
+    #menu form.icons {
+        margin-left: 30%;
+    }
+
+    #covid-news {
+        font-size: 0.7em;
+        margin-top: 5em;
+    }
+
+    #covid-news .button {
+        padding: 1em;
+    }
+
+    section {
+        margin-top: 3em;
+        width: 100%;
+    }
+
+    section #delivery h2 {
+        font-size: 120%;
+    }
+
+    section #delivery p {
+        font-size: 75%;
+    }
+
+    footer div {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #menu form.icons {
+        margin-left: 20%;
+    }
+
+    #covid-news {
+        font-size: 0.5em;
+        margin-top: 5em;
+        margin-bottom: 0px;
+    }
+
+    #covid-news .button {
+        padding: 1.2em;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    #menu form.icons {
+        margin-left: 7%;
+    }
+
+    #covid-news .button {
+        padding: 1.2em;
+    }
+
+    footer #information h1 {
+        font-size: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    #menu {
+        margin-bottom: 10em;
+    }
+   
+    #menu #logo {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #menu form.search-box {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #menu form.icons {
+        margin-left: 7%;
+        font-size: 0.9em;
+    }
+
+    form.search-box {
+        width: auto;
+        font-size: 1.2em;
+    }
+
+    form.search-box input[type=text] {
+        width: 85%;
+    }
+
+    form.search-box button {
+        width: 15%;
+    }
+
+    .dropdown-menu li {
+        width: 100%;
+    }
+
+    #covid-news .button {
+        padding: 1.2em;
+    }
+
+    section #delivery  {
+        padding-top: 1em;   
+    }
+
+    #article i {
+        font-size: 90%;
+    }
+
+    footer #information {
+        text-align: left;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+    #menu form a i {
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+

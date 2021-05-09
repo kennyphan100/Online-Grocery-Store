@@ -1,0 +1,323 @@
+/* Aligining the boxes of the cart */
+
+.item {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px dotted rgb(219, 182, 182);
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 100%;
+}
+
+.productRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.productName {
+    margin-left: 60px;
+}
+
+.addProduct {
+    position: relative;
+    left: 80px;
+}
+
+.price {
+    margin-left: 100px;
+}
+
+.totalPrice {
+    margin-left: 100px;
+}
+
+.delItem {
+    margin-left: 100px;
+}
+
+.image {
+    /* max-width: 30px; */
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 8px;
+    /* justify-self: center; */
+    padding: 10px;
+    margin: 100px;
+    margin-right: 60px;
+    margin-top: 100px;
+    margin-left: 58px;
+    /* margin-left: 10px; */
+    border: 1px solid blanchedalmond;
+    background-color: white;
+}
+
+.heading {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.productName h2 {
+    font-size: 14px;
+}
+
+.productName p {
+    font-size: 13px;
+    font-weight: 65px;
+    float: left;
+}
+
+
+/*Each line design  */
+
+.image {
+    height: fit-content;
+    width: fit-content;
+}
+
+#productImage {
+    height: 150px;
+    width: 180px;
+}
+
+
+/* Delete Button */
+
+#delBtn {
+    height: 20px;
+}
+
+
+/* Add button */
+
+.addProduct {
+    position: relative;
+}
+
+.addProduct button {
+    /* margin: 10px; */
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.addProduct span {
+    font-weight: bold;
+}
+
+.price h3 {
+    font-size: 20px;
+}
+
+.addProduct {
+    /* border: 2px solid black; */
+    width: 94px;
+}
+
+.totalPrice h3 {
+    font-size: 20px;
+}
+
+
+/* page placement */
+
+.cartContainer {
+    display: flex;
+    flex-direction: row;
+    background: #f9f9f9;
+    /* height: 100%; */
+    /* position: relative; */
+    top: 0px;
+}
+
+.amount {
+    /* margin-top: 100px; */
+    background-color: white;
+    padding: 20px;
+    margin-left: 12px;
+    border-radius: 10px;
+    border: 2px solid blanchedalmond;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 97px;
+    margin-right: 20px;
+}
+
+.bill {
+    max-width: 230px;
+    height: fit-content;
+}
+
+
+/*Used from stack overflow */
+
+.total dl {
+    margin-left: 0px;
+}
+
+.total dt {
+    float: left;
+    clear: left;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.continueShopping {
+    margin-top: 25px;
+}
+
+
+/* Responsive Web page */
+
+@media only screen and (max-width:570px) {
+    .cartContainer {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .products {
+        margin-left: 30px;
+        max-width: 17rem;
+        /* margin-right: 20px; */
+    }
+    .amount {
+        margin-top: none;
+        margin-left: 40px;
+        margin-top: none;
+        top: 0px;
+    }
+    .productRow {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .price {
+        margin-left: 100px;
+    }
+    .productRow>div {
+        position: static;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .productRow {
+        align-items: flex-start;
+    }
+    .productName h2 {
+        font-size: 24px;
+    }
+    .item {
+        flex-direction: column;
+        float: left;
+        margin-left: 0px;
+    }
+    .buttons {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1236px) {
+    .cartContainer {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .products {
+        width: 100%;
+        height: auto;
+    }
+    .productRow {
+        width: auto;
+    }
+    .productName {
+        margin-left: 0.5rem;
+    }
+    .addProduct {
+        display: inline;
+        position: relative;
+        left: 0.7rem;
+    }
+    .price {
+        margin-left: 0.7rem;
+    }
+    .totalPrice {
+        margin-left: 0.7rem;
+    }
+    .delItem {
+        margin-left: 0.7rem;
+    }
+}
+
+@media only screen and (max-width:974px) {
+    .item {
+        flex-direction: column;
+        width: 100%;
+    }
+    .productRow {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .amount {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+}
+
+
+/* Footer  */
+
+footer {
+    top: 0px;
+}
+
+
+/* Emptl cart Placeholder */
+
+@import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
+body {
+    background-color: #eee;
+    font-family: 'Calibri', sans-serif !important
+}
+
+.mt-100 {
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 30px;
+    border: 0;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    letter-spacing: .5px;
+    border-radius: 8px;
+    border: none;
+    -webkit-box-shadow: 1px 5px 24px 0 rgba(68, 102, 242, .05);
+    box-shadow: 1px 5px 24px 0 rgba(68, 102, 242, .05);
+    width: 870px;
+}
+
+.card .card-header {
+    background-color: white;
+    border-bottom: none;
+    padding: 24px;
+}
+
+@media only screen and (max-width: 1288px) {
+    .card {
+        max-width: 200px;
+    }
+}

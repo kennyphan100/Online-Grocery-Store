@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<head>
+  <title>Cloud | Order List</title>
+  <meta charset = "utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="Author" content="Mélina Deneuve, Kenny Phan, Joe El-Khoury, Titouan Sablé, Tommy Cao, Muhammad Mubashir">
+  <meta name = "description" content = "Order List Page">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Keywords" content="Cloud, Online Grocery">
+
+  <!-- Font Awesome Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- Bootstrap JS Inquiries -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+  <link rel = "shortcut icon" type = "img/jpg" href = "../images/cloud.jpg"/>
+  <link rel = "stylesheet" type = "text/css" href = "../css/P11.css"/>
+  
+  <script type = "text/javascript" src = "../js/P11.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header id="header">
+    <a href="../php/P1.php"> Cloud Grocery Orders </a>
+  </header>
+  
+ <!-- Menu created from Bootstrap template -->
+ <nav class = "navbar navbar-light navbar-expand-lg bg-light">
+   <div class = "container-fluid">
+     <a class = "navbar-brand" href = "#">
+       <img src = "../images/cloud.jpg" id = "logo" type = "image/jpg" class="align-top">
+     </a>
+      <form class = "search">
+          <span class = "fa fa-search"></span>
+          <input class = "ID_Search" type = "search" placeholder = "Order ID Search">
+      </form>
+     <button class = "navbar-toggler" type = "button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+       <span class = "navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link active" aria-current="page" href="#">Order List</a>
+        <a class='nav-link' href="P5.html">Login</a>
+        <a class="nav-link" href="P1.html">Homepage</a>
+        <a class="nav-link" href="P9.html">User List</a>
+        <a class="nav-link" href="P7.html">Product List</a>
+      </div>
+    </div>
+   </div>
+  </nav>
+
+
+  <div class="card" id = "card1">
+    <div class="card-body">
+      <img class = "avatar" src = "../images/default_avatar.png"/>
+      <h4 class="card-title" id = "FirstName">Tommy</h4>
+      <h6 class = "card-title" id = "LastName">CAO</h6>
+      <p1 class="card-text" id = "Order ID">Order ID: #00426719572</p1>
+      <br />
+      <br />
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#list1" aria-expanded="false" aria-controls="collapseExample">
+        Show Order Info
+      </button>
+      <button class="btn btn-primary" type="button" onclick = "deleteCard('card1')">
+        Cancel Order
+      </button>
+      <a href = "P12-1.html">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#modify1" aria-expanded="false" aria-controls="collapseExample">
+        Modify Order
+        </button>
+      </a>
+
+      <div class = "collapse" id = "list1">
+
+        <table>
+          <tr>
+            <th style = "text-align: left;">Item</th>
+            <th style = "text-align: right;">Price</th>
+          </tr>
+          <tr>
+            <td id = "item"> <img src = "../images/download.png" id = "item" class = "center">
+              6 Apples
+            </td>
+            <td id = "price">
+                <strong>$4.99</strong>
+            </td>
+          </tr>
+          <tr>
+            <td id = "item">
+              <img src = "../images/orange.png" id = "item" class = "center">
+              12 Oranges
+            </td>
+            <td id = "price">
+              <strong>$19.99</strong>
+            </td>
+          </tr>
+          <tr>
+            <td id = "item">
+              <img src = "../images/Eggs.png" id = "item" class = "center">
+              6 Eggs
+            </td>
+            <td id = "price">
+              <strong>$7.99</strong>
+            </td>
+          </tr>
+          <tr>
+            <td id = "item">
+              <img src = "../images/Milk.png" id = "item" class = "center">
+             1 Milk
+            </td>
+            <td id = "price">
+              <strong>$8.99</strong>
+            </td>
+          </tr>
+          <tr>
+            <td id = "item">
+              <img src = "../images/Potatoes.png" id = "item" class = "center">
+             2 Potato Packs
+            </td>
+            <td id = "price">
+              <strong>$19.99</strong>
+            </td>
+          </tr>
+          <tr>
+            <td id = "item">
+              <img src = "../images/Steak.png" id = "item" class = "center">
+             2 Premium Steak
+            </td>
+            <td id = "price">
+              <strong>$84.99</strong>
+            </td>
+        </table>
+       
+        <div class = "p">
+          <p class = "Total-Price">
+            <strong id = "TotalPrice">
+              <br/>
+              Before Tax: $146.94
+              <br />
+              Taxes: $22.01
+              <br />
+              Total: $168.95
+            </strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+     
+  <div class="card" id = "card2">
+    <img class="card-img-left" src="holder.js/100x180/" alt="">
+    <div class="card-body">
+      <img class = "avatar" src = "../images/default_avatar.png"/>
+      <h4 class="card-title" id = "FirstName">Joe</h4>
+      <h6 class = "card-title" id = "LastName">El-KHOURY</h6>
+      <p1 class = "card-text" id = "Order ID">Order ID: #68281968176</p1>
+      <br />
+      <br />
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#list2" aria-expanded="false" aria-controls="collapseExample">
+        Show Order Info
+      </button>
+      <button class="btn btn-primary" type="button" onclick = "deleteCard('card2')">
+        Cancel Order
+      </button>
+      <a href = "P12-2.html">
+        <button class="btn btn-primary" type="button">
+        Modify Order
+        </button>
+      </a>
+
+      <div class = "collapse" id = "list2">
+       
+        <table>
+          <tr>
+            <th>Item</th>
+            <th style = "text-align: right;">Price</th>
+          </tr>
+          <tr>
+            <td id = "item">
+              <img src = "../images/download.png" id = "item" class = "center">
+               12 Apples
+            </td>
+            <td id = "price">
+              <strong>$8.99</strong>
+            </td>
+          </tr>
+          <tr>
+            <td id = "item">
+              <img src = "../images/orange.png" id = "item" class = "center">
+              6 Oranges
+            </td>
+            <td id = "price">
+              <strong>$9.99</strong>
+            </td>
+          </tr>
+          <tr>
+            <td id = "item">
+              <img src = "../images/Eggs.png" id = "item" class = "center">
+              12 Eggs
+            </td>
+            <td id = "price">
+              <strong>$14.99</strong>
+            </td>
+          </tr>
+          <tr>
+            <td id = "item">
+              <img src = "../images/Milk.png" id = "item" class = "center">
+               2 Milk
+            </td>
+            <td id = "price">
+              <strong>$16.99</strong>
+            </td>
+          </tr>
+          <tr>
+            <td id = "item">
+              <img src = "../images/Potatoes.png" id = "item" class = "center">
+               1 Potato Pack
+            </td>
+            <td id = "price">
+              <strong id>$12.99</strong>
+            </td>
+          </tr>
+          <tr>
+            <td id = "item">
+              <img src = "../images/Steak.png" id = "item" class = "center">
+              1 Premium Steak
+            </td>
+            <td id = "price">
+              <strong>$42.99</strong>
+            </td>
+        </table>
+
+        <p class = "Total-Price">
+          <strong id = "TotalPrice">
+            <br/>
+            Before Tax: $106.94
+            <br />
+            Taxes: $16.01
+            <br />
+            Total: $122.95
+          </strong>
+        </p>
+        
+      </div>
+    </div>
+  </div>
+  
+  <br>
+  <footer style="text-align:center;">
+    <div id="copyright">
+        <h6> &copy; Copyright Cloud 2021</h6>
+    </div>
+  </footer>
+
+</body>
+</html>

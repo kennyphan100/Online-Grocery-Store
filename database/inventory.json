@@ -1,0 +1,218 @@
+[
+    {
+        "ID": "0",
+        "Product Name": "Apple",
+        "Quantity": "153",
+        "Original Price": "0.99",
+        "Current Price": "0.99",
+        "Image Location": "..\/images\/apple.jpg",
+        "Description": "Round Red Fruit"
+    },
+    {
+        "ID": "1",
+        "Product Name": "Avacado",
+        "Quantity": "234",
+        "Original Price": "1.99",
+        "Current Price": "1.99",
+        "Image Location": "..\/images\/avocado.jpg",
+        "Description": "Avacado"
+    },
+    {
+        "ID": "2",
+        "Product Name": "Kiwi",
+        "Quantity": "546",
+        "Original Price": "1.29",
+        "Current Price": "1.29",
+        "Image Location": "..\/images\/kiwi.jpg",
+        "Description": "Fruit or Bird"
+    },
+    {
+        "ID": "3",
+        "Product Name": "Broccoli",
+        "Quantity": "454",
+        "Original Price": "3.50",
+        "Current Price": "3.50",
+        "Image Location": "..\/images\/broccoli.jpg",
+        "Description": "Children hate it"
+    },
+    {
+        "ID": "4",
+        "Product Name": "Cucumber",
+        "Quantity": "423",
+        "Original Price": "2.29",
+        "Current Price": "2.29",
+        "Image Location": "..\/images\/cucumber.jpg",
+        "Description": "Long and Green"
+    },
+    {
+        "ID": "5",
+        "Product Name": "Tomato",
+        "Quantity": "453",
+        "Original Price": "1.19",
+        "Current Price": "1.19",
+        "Image Location": "..\/images\/tomato.jpg",
+        "Description": "Red and juicy"
+    },
+    {
+        "ID": "6",
+        "Product Name": "2% Milk",
+        "Quantity": "789",
+        "Original Price": "6.99",
+        "Current Price": "6.99",
+        "Image Location": "..\/images\/milk.jpg",
+        "Description": "Moooooo"
+    },
+    {
+        "ID": "7",
+        "Product Name": "Cream Cheese",
+        "Quantity": "397",
+        "Original Price": "2.89",
+        "Current Price": "2.89",
+        "Image Location": "..\/images\/cream.jpg",
+        "Description": "Creamy and chessy"
+    },
+    {
+        "ID": "8",
+        "Product Name": "Butter",
+        "Quantity": "166",
+        "Original Price": "2.29",
+        "Current Price": "2.29",
+        "Image Location": "..\/images\/butter.jpg",
+        "Description": "Good"
+    },
+    {
+        "ID": "9",
+        "Product Name": "White Eggs",
+        "Quantity": "163",
+        "Original Price": "3.50",
+        "Current Price": "3.50",
+        "Image Location": "..\/images\/white_eggs.jpg",
+        "Description": "White shell"
+    },
+    {
+        "ID": "10",
+        "Product Name": "Brown Eggs",
+        "Quantity": "346",
+        "Original Price": "3.50",
+        "Current Price": "3.50",
+        "Image Location": "..\/images\/eggs.jpg",
+        "Description": "Brown shell"
+    },
+    {
+        "ID": "11",
+        "Product Name": "Organic Eggs",
+        "Quantity": "625",
+        "Original Price": "4.20",
+        "Current Price": "4.20",
+        "Image Location": "..\/images\/organic_eggs.jpg",
+        "Description": "Organic shell"
+    },
+    {
+        "ID": "12",
+        "Product Name": "Steak",
+        "Quantity": "456",
+        "Original Price": "3.99",
+        "Current Price": "3.99",
+        "Image Location": "..\/images\/steak.jpg",
+        "Description": "Wagyu"
+    },
+    {
+        "ID": "13",
+        "Product Name": "Ground Beef",
+        "Quantity": "256",
+        "Original Price": "3.99",
+        "Current Price": "3.99",
+        "Image Location": "..\/images\/groundbeef.jpg",
+        "Description": "Ground and beefy"
+    },
+    {
+        "ID": "14",
+        "Product Name": "Chicken Legs",
+        "Quantity": "847",
+        "Original Price": "4.29",
+        "Current Price": "4.29",
+        "Image Location": "..\/images\/chickenlegs.jpg",
+        "Description": "Fried is the way to go"
+    },
+    {
+        "ID": "15",
+        "Product Name": "Frozen Pepperoni Pizza",
+        "Quantity": "56",
+        "Original Price": "4.99",
+        "Current Price": "3.99",
+        "Image Location": "..\/images\/pizza.jpg",
+        "Description": "It's not delivery, it's DiGiorno!"
+    },
+    {
+        "ID": "16",
+        "Product Name": "Frozen Fries",
+        "Quantity": "95",
+        "Original Price": "2.59",
+        "Current Price": "2.59",
+        "Image Location": "..\/images\/fries.jpg",
+        "Description": "Crispy and thin"
+    },
+    {
+        "ID": "17",
+        "Product Name": "Original Waffles",
+        "Quantity": "999",
+        "Original Price": "2.29",
+        "Current Price": "2.29",
+        "Image Location": "..\/images\/eggo.jpg",
+        "Description": "Leggo, my Eggo!"
+    },
+    {
+        "ID": "18",
+        "Product Name": "Salted Crackers",
+        "Quantity": "32",
+        "Original Price": "3.99",
+        "Current Price": "3.99",
+        "Image Location": "..\/images\/crackers.jpg",
+        "Description": "Salty and dry"
+    },
+    {
+        "ID": "19",
+        "Product Name": "Cashews",
+        "Quantity": "46",
+        "Original Price": "3.99",
+        "Current Price": "3.99",
+        "Image Location": "..\/images\/cashews.jpg",
+        "Description": "Salty nuts"
+    },
+    {
+        "ID": "20",
+        "Product Name": "Doritos",
+        "Quantity": "879",
+        "Original Price": "4.29",
+        "Current Price": "3.29",
+        "Image Location": "..\/images\/doritos.jpg",
+        "Description": "Triangle chip"
+    },
+    {
+        "ID": "21",
+        "Product Name": "Water",
+        "Quantity": "67",
+        "Original Price": "9.99",
+        "Current Price": "9.99",
+        "Image Location": "..\/images\/water.jpg",
+        "Description": "Source of life"
+    },
+    {
+        "ID": "22",
+        "Product Name": "Orange Juice",
+        "Quantity": "89",
+        "Original Price": "3.99",
+        "Current Price": "2.99",
+        "Image Location": "..\/images\/orangejuice.jpg",
+        "Description": "Better with pulp"
+    },
+    {
+        "ID": "23",
+        "Product Name": "Coca Cola",
+        "Quantity": "94",
+        "Original Price": "4.29",
+        "Current Price": "4.29",
+        "Image Location": "..\/images\/cocacola.jpg",
+        "Description": "Fizzy and better than pepsi"
+    }
+]

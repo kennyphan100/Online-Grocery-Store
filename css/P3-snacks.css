@@ -1,0 +1,241 @@
+/* Button */
+.cartBtn {
+    float: left;
+    background-color: #f4f4f4;
+    border-radius: 11px;
+    border: none;
+    padding: 12px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+#change {
+    border: black;
+    float: left;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: inline;
+}
+
+#change button {
+    background-color: rgb(4, 108, 199);
+    border: none;
+    color: White;
+    margin: 20px;
+    padding: 0 10px;
+}
+
+#subtotal {
+    float: left;
+    margin: 50px;
+}
+
+.btn i {
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 0px;
+    float: left;
+    padding: 20px;
+}
+
+.cart {
+    height: 30px;
+}
+
+.cartBtn:hover {
+    background-color: rgb(4, 108, 199);
+    border: rgb(4, 108, 199);
+}
+
+
+/* Image */
+.productCard {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 70px;
+    margin-left: 20px;
+    margin-right: 70px;
+}
+
+.drop-btn {
+    background-color: rgb(4, 108, 199);
+}
+
+.image {    
+    margin-top: 5px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 80px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.productImage {
+    width: auto;
+    height: auto;
+}
+
+
+div#ProductInfo{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1, h2, h4 {
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+h4{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    position: relative;
+    margin-top: 100px;
+}
+
+/* ACCORDION */
+.desc {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+    border-radius: 7px;
+    margin: auto;
+    width: 85%;
+  }
+
+.desc table#nutrition_facts{
+    border: 1px solid black;
+    overflow-x: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size:20px;
+}
+
+th, td{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+td hr{
+    border: 5px solid gray;
+}
+
+td.small, td#small{
+    font-size:small;
+}
+
+td.right_aligned{
+    text-align:right;
+    font-weight: bold;
+}
+
+select.form-select, button#add_to_cart{
+    width: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(61, 123, 238);
+    transition: border-color 0.3s;
+    transition: box-shadow 0.3s;
+}
+
+button#add_to_cart{
+    margin-top: 10px;
+    width: 55%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+}
+
+select.form-select:hover{
+    border-color:rgb(61, 123, 238);
+    box-shadow: 2px 0px 10px 0px rgb(61, 123, 238);
+}
+
+select.form-select:focus{
+    border-color:blueviolet;
+    box-shadow: 2px 0px 10px 0px blueviolet;
+}
+
+  
+.panel {
+    background-color: white;
+    padding: 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+
+@media only screen and (max-width:1280px) {
+    .productCard {
+        width: 100%;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        position: static;
+    }
+    .container2 {
+        grid-template-columns: auto;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    img.productImage{
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+    .card {
+        align-items: center;
+        margin: auto;
+    }
+    .cartBtn {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .container2 {
+        grid-template-columns: auto;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    img.productImage{
+        width: 100%;
+        height: auto;
+    }
+
+    .item1 {
+        border: none;
+        border-top: 1px solid gray;
+        border-radius: 0px;
+    }
+    .card {
+        margin: none;
+    }
+    .discription {
+        max-width: 350px;
+    }
+}
