@@ -33,13 +33,13 @@
 <body>
     <!-- HEADER -->
     <header id="header">
-        <a href="php/p1.php" class="display-4"> <span id="title">CLOUD</span> ONLINE GROCERY </a>
+        <a href="php/P1.php" class="display-4"> <span id="title">CLOUD</span> ONLINE GROCERY </a>
     </header>
 
     <!-- MENU -->
     <div id="menu">
         <div id="box">
-            <a href="php/p1.php"> <img src="images/cloud.jpg" alt="grocery store logo" id="logo" class="center"> </a>
+            <a href="php/P1.php"> <img src="images/cloud.jpg" alt="grocery store logo" id="logo" class="center"> </a>
 
             <form action="" class="search-box" class="center">
                 <input type="text" name="search" placeholder="Search Products">
