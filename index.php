@@ -95,12 +95,9 @@
     <!-- MAIN SECTION -->
     <section id="main-section">
         <div id="delivery">
-            <a href="">
-                <h2>FREE HOME DELIVERY</h2>
+                <h2 style="color: blue; font-size: 3em;">FREE HOME DELIVERY</h2>
                 <p>*free delivery on orders $50+*</p>
                 <img src="images/freedelivery.png" alt="free delivery image"> <br>
-                <a href="404_Error.html" class="btn btn-dark" role="button">Shop now!</a>
-            </a>
         </div>
     </section>
 
