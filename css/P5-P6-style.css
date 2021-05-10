@@ -18,7 +18,6 @@
 
 
 /* MENU */
-
 #menu {
     height: 6em;
     width: 100%;
@@ -114,14 +113,14 @@ form a:hover {
 /* MAIN - REGISTER */
 
 #register {
-    min-height: 40vh;
+    min-height: 50vh;
     width: 100%;
     text-align: center;
 }
 
 #register .title {
     background-color: #f3f3f3;
-    margin: 5% 0%;
+    margin: 3% 0%;
     padding: 1% 0%;
     text-align: center;
 }
@@ -265,61 +264,6 @@ input::-webkit-inner-spin-button {
     font-weight: bold;
 }
 
-
-/* ACCORDION - DETAILED DESCRIPTION */
-
-.accordion {
-    background-color: lightgray;
-    color: black;
-    cursor: pointer;
-    padding: 15px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.2s;
-}
-
-.accordion:after {
-    content: '\02795';
-    /* Unicode character for "plus" sign (+) */
-    float: right;
-    font-size: 13px;
-    margin-left: 5px;
-}
-
-.active:after {
-    content: "\2796";
-    /* Unicode character for "minus" sign (-) */
-}
-
-.panel {
-    background-color: white;
-    padding: 15px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-
-
-/* ARTICLE */
-
-#article {
-    background-color: rgb(52, 177, 235);
-    height: 1.5em;
-    font-size: 2.5em;
-    text-align: center;
-}
-
-#article i {
-    color: white;
-    margin: 0 0.5em;
-}
-
-#article i:hover {
-    color: rgb(4, 108, 199);
-    transform: scale(1.1);
-}
 
 
 /* FOOTER */
