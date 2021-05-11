@@ -2,7 +2,7 @@
 
 This project implements an online grocery store website using HTML, CSS, JavaScript, PHP, and MySQL.
 
-Website: https://sudoku-game-java.herokuapp.com/
+Website: https://online-grocery-store-cloud.herokuapp.com/
 
 <br>
 
