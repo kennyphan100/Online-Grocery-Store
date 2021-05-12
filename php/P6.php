@@ -170,21 +170,21 @@ fclose($file);
         <!-- FOOTER -->
         <footer>
             <div id="description">
+                <div id="customer-service">
+                    <h1>CUSTOMER SERVICE</h1>
+                    <ul>
+                        <li><a href="404_Error.html">Contact US</a></li>
+                        <li><a href="404_Error.html">FAQ</a></li>
+                        <li><a href="404_Error.html">Privacy Policy</a></li>
+                        <li><a href="404_Error.html">Terms and Conditions</a></li>
+                    </ul>
+                </div>
                 <div id="about-us">
                     <h1>ABOUT US</h1>
                     <ul>
                         <li><a href="">Company Information</a></li>
                         <li><a href="">Charitable Contribution</a></li>
                         <li><a href="">Investor Relations</a></li>
-                    </ul>
-                </div>
-                <div id="customer-service">
-                    <h1>CUSTOMER SERVICE</h1>
-                    <ul>
-                        <li><a href="ContactUs.html">Contact US</a></li>
-                        <li><a href="">FAQ</a></li>
-                        <li><a href="">Privacy Policy</a></li>
-                        <li><a href="">Terms and Conditions</a></li>
                     </ul>
                 </div>
                 <div id="online">

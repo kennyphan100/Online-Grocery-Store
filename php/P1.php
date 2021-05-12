@@ -140,14 +140,6 @@
     <!-- FOOTER -->
     <footer>
         <div id="information">
-            <div id="about-us">
-                <h1>ABOUT US</h1>
-                <ul>
-                    <li><a href="../html/404_Error.html">Company Information</a></li>
-                    <li><a href="../html/404_Error.html">Charitable Contribution</a></li>
-                    <li><a href="../html/404_Error.html">Investor Relations</a></li>
-                </ul>
-            </div>
             <div id="customer-service">
                 <h1>CUSTOMER SERVICE</h1>
                 <ul>
@@ -155,6 +147,14 @@
                     <li><a href="../html/404_Error.html">FAQ</a></li>
                     <li><a href="../html/404_Error.html">Privacy Policy</a></li>
                     <li><a href="../html/404_Error.html">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div id="about-us">
+                <h1>ABOUT US</h1>
+                <ul>
+                    <li><a href="../html/404_Error.html">Company Information</a></li>
+                    <li><a href="../html/404_Error.html">Charitable Contribution</a></li>
+                    <li><a href="../html/404_Error.html">Investor Relations</a></li>
                 </ul>
             </div>
             <div id="online">
