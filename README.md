@@ -1,7 +1,6 @@
 # Online Grocery Store Website: Cloud
 
-This E-Commerce website is an online modern grocery store concept. It was built for a school project as a team of 6 people.
-In this project, we built an online grocery store website using 
+This E-Commerce website is an online modern grocery store concept. It was built for a school project that lasted 4 months as a team of 6 people.
 
 Technologies used: HTML, CSS/Boostrap, JavaScript, PHP, and MySQL.
 
